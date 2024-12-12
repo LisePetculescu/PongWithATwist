@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(34, 99, 34, 0.998);
+  /* display: grid; */
+  justify-items: center;
+}
+
+header {
+  justify-items: center;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+#gameField {
+  width: 400px;
+  height: 300px;
+  border: red 2px solid;
+}
