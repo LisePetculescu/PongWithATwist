@@ -1,19 +1,28 @@
 body {
-  background-color: rgba(34, 99, 34, 0.998);
-  /* display: grid; */
+  background-color: rgba(0, 0, 0);
+  display: grid;
   justify-items: center;
 }
 
 header {
+  display: grid;
   justify-items: center;
+  color: rgba(60, 171, 60, 0.998);
+  font-family: monospace;
+  /* font-family: "ArcadeClassic", sans-serif; */
+  font-family: "Arcade Interlaced", sans-serif;
+  /* font-family: "Arcade Normal", sans-serif; */
+  /* font-family: "Arcade Rounded", sans-serif; */
 }
 
-header h1 {
+header h1, h2, h3 {
   margin-bottom: 0;
 }
 
 #gameField {
-  width: 400px;
-  height: 300px;
-  border: red 2px solid;
+  width: 600px;
+  height:500px;
+  border: red 5px double;
+  box-shadow: 0px 0px 10px 5px #323232;
+  background-color: rgb(40, 40, 40);
 }

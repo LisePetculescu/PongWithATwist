@@ -1,0 +1,21 @@
+!! A* not good for this !! 
+1. Normal pong setup
+1a. gamefield
+1b. add player1
+1c. add player2
+1d. player collission with edges
+1e. add ball
+1f. ball collission
+2. add player 3 --> hardcoded AI trying to hit the ball
+2a. add player 3 trying to catch the ball from the buttom going straight up & down
+2b. add player 3 collission with edges and ball 
+3. add A* algorithm to 3rd player
+3a. add grid to gamefield
+3b. make algorithm --> ball is the (moving) goal
+3c. visualise how the algorithm tries to find the ball
+
+Perhaps
+4. add graphics to the game
+player 1 & 2 --> cats
+player 3 --> human
+ball --> hamster
